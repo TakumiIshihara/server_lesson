@@ -1,0 +1,187 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd /root
+    5  pwd
+    6  cd usr
+    7  cd /usr
+    8  cd /home
+    9  mkdir test1
+   10  ls
+   11  mkdir test2/test3
+   12  mkdir -p test2/test3
+   13  ls
+   14  ls test2
+   15   cd /home
+   16  touch test1/index.php
+   17  ls test1
+   18  cd /home/test1 && ls
+   19  cd /home/test1
+   20  cp index.php copy.php
+   21  ls
+   22  cd /home
+   23  cp -r test1 test4
+   24  ls
+   25  ls test4
+   26  cd /home
+   27  mv test2/test3 test3
+   28  ls
+   29  mv test4 test1_copy
+   30  ls
+   31  ls test1
+   32  rm test1/copy.php
+   33  ls test1
+   34  rm -r test3
+   35  ls
+   36  rm test1_copy/*.php
+   37  ls test1_copy
+   38  ls
+   39  cd test1
+   40  ls
+   41  cd home
+   42  cd /home
+   43  echo '# Hello World' > README.md
+   44  cat README.md
+   45   echo 'Linux Practice' >> README.md
+   46   echo '-----------------' >> README.md
+   47  cat README.md
+   48  vi README.md
+   49  cd /root
+   50  kdir server_lesson && cd server_lesson
+   51  mkdir server_lesson && cd server_lesson
+   52   yum update -y && yum -y install git
+   53  git version
+   54  git init
+   55  touch first.txt
+   56  mkdir linux_practice1/public
+   57  mkdir server_lesson/linux_practice1/public
+   58  mkdir -q linux_practice1 / public
+   59  ls
+   60  mkdir server_lesson/linux_practice1/public
+   61  cd linux_practice1
+   62  mkdir -p linux_practice1 / public
+   63  touch public/index.php
+   64  ls
+   65  cd public
+   66  ls
+   67  cp index.php index_bk.php
+   68  ls
+   69  cd  server_lesson
+   70  cd / server_lesson
+   71  cd  server_lesson
+   72  ls
+   73  cd  server_lesson
+   74  cd/ server_lesson
+   75  pwd
+   76  cd-
+   77  cd.
+   78  cd /root
+   79  pwd
+   80  cd server_lesson
+   81  ls
+   82  cp -r public tmp
+   83  ls
+   84  cd tmp
+   85  ls
+   86  rm index_bk.php
+   87  ls
+   88  cd server_lesson
+   89  cd.
+   90  pwd
+   91  cd -
+   92  touch README.md
+   93  ls
+   94  vi README.md
+   95  mkdir -p linux_practice2/documents
+   96  cd documents
+   97  lis
+   98  ls
+   99  cd linux_practice2
+  100  cd documents
+  101  touch gizumo{01..50}.md
+  102  ls
+  103  cd -
+  104  mkdir trash
+  105  mv documents/gizumo{20..40} trash
+  106  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/
+  107  ls
+  108  mv linux_practice2/documents/gizumo{20..40} linux_practice2/trash
+  109  ls linux_practice2
+  110  ls
+  111  documents/gizumo{20..40} linux_practice2/trash
+  112  mkdir linux_practice2/trash
+  113  cd -
+  114  cd -
+  115  cd -
+  116  cd server_lesson
+  117  cd .
+  118  cd inux_practice1 
+  119  cd /
+  120  cd inux_practice1 
+  121  cd linux_practice1
+  122  cd .
+  123  cd ..
+  124  cd-
+  125  cd -
+  126  cd -
+  127  cd ~
+  128  cd .
+  129  cd -
+  130  cd usr
+  131  ls
+  132  cd server_lesson
+  133  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/
+  134  cd  linux_practice2
+  135  cd trash
+  136  ls
+  137  cd cd linux_practice2
+  138  cd -
+  139  touch .gitignore
+  140  cd .gitignere
+  141  .gitignore
+  142  cd gitignore
+  143  cd .gitignore
+  144  ls
+  145  touch linux_practice2/.gitignore
+  146  touch .gitignore
+  147  ls
+  148  cd .gitignore
+  149  vi linux_practice2/.gitignore
+  150  nano .gitignore
+  151  vi linux_practice2/.gitignore
+  152                                                                                                     
+  153  "linux_practice2/.gitignore"
+  154  "linux_practice2/.gitignore" E212: Can't open file for writing
+Press ENTER or type command to continue
+:
+"
+
+;
+:
+:
+;
+"
+'
+  155  ls -a
+  156  vi linux_practice2/.gitignore
+  157  rm linux_practice2/.gitignore
+  158  rm .gitignore
+  159  ls-a
+  160  ls -a
+  161  vi linux_practice2/.gitignore
+  162  touch .gitignore
+  163  lis
+  164  ls
+  165  ls -l linux_practice2/.gitignore
+  166  ls .gitignore
+  167  ls -l .gitignore
+  168  chmod 644 linux_practice2/.gitignore
+  169  vi linux_practice2/.gitignore
+  170  ls -l .giticnore
+  171  ls -l .gitignore
+  172  history 300 > linux_practice2/exec_command.log
+  173  touch exec_command.log
+  174  cd exec_command.log
+  175  ls
+  176  cd exec_command.log
+  177  history 300 >exec_command.log
